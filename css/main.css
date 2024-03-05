@@ -1,0 +1,71 @@
+body{
+    /*background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-position: center;*/
+    
+    
+    background-image: linear-gradient( 135deg, #FFE985 10%, #FA742B 100%);
+    animation-name: cor;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cor {
+    0% {
+        background-position: 0% 100%;
+    } 
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 1% 99%;
+    }
+}
+
+#minutos, #segundos{
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#separador-cronometro{
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.contador-voltas-cronometro{
+    font-size: 20px;
+}
+
+
+.cem-pixel{
+    height: 100px;
+}
+#campo-alterar-frase-motivacional {
+    background-color: transparent;
+    border-top: 0px;
+    border-bottom: 1px solid #ffffff;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#campo-alterar-frase-motivacional:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top: 0px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#imagem-tipo-cronometro {
+    height: 110px;
+    margin: 0;
+}
+
+#playlist {
+    height: 80px;
+}
+
